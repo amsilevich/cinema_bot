@@ -1,8 +1,3 @@
-import metadata
-import json
-from abc import ABC
-
-
 def clip_link(link):
     protocols = ['https', 'http']
     for protocol in protocols:
